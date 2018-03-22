@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DetachElasticLoadBalancer&k=1:
+  /?Action=DetachElasticLoadBalancer:
     get:
       summary: ' Detach Elastic Load Balancer '
       description: Detaches a specified Elastic Load Balancing instance from its layer
