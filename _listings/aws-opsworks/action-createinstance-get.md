@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateInstance&k=1:
+  /?Action=CreateInstance:
     get:
       summary: ' Create Instance '
       description: Creates an instance in a specified stack
