@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateInstance&k=1:
+  /?Action=UpdateInstance:
     get:
       summary: ' Update Instance '
       description: Updates a specified instance
