@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeStacks&k=1:
+  /?Action=DescribeStacks:
     get:
       summary: ' Describe Stacks '
       description: Requests a description of one or more stacks
