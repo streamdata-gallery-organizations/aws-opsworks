@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeElasticLoadBalancers&k=1:
+  /?Action=DescribeElasticLoadBalancers:
     get:
       summary: ' Describe Elastic Load Balancers '
       description: Describes a stack's Elastic Load Balancing instances
