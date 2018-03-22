@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeregisterEcsCluster&k=1:
+  /?Action=DeregisterEcsCluster:
     get:
       summary: ' Deregister Ecs Cluster '
       description: Deregisters a specified Amazon ECS cluster from a stack
