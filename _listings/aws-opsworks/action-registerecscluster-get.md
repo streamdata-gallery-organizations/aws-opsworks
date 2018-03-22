@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RegisterEcsCluster&k=1:
+  /?Action=RegisterEcsCluster:
     get:
       summary: ' Register Ecs Cluster '
       description: Registers a specified Amazon ECS cluster with a stack
