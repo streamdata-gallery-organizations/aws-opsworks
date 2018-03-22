@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateLayer&k=1:
+  /?Action=CreateLayer:
     get:
       summary: ' Create Layer '
       description: Creates a layer
