@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeStackProvisioningParameters&k=1:
+  /?Action=DescribeStackProvisioningParameters:
     get:
       summary: ' Describe Stack Provisioning Parameters '
       description: Requests a description of a stack's provisioning parameters
