@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeregisterRdsDbInstance&k=1:
+  /?Action=DeregisterRdsDbInstance:
     get:
       summary: ' Deregister Rds Db Instance '
       description: Deregisters an Amazon RDS instance
