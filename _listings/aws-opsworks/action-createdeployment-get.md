@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateDeployment&k=1:
+  /?Action=CreateDeployment:
     get:
       summary: ' Create Deployment '
       description: Runs deployment or stack commands
