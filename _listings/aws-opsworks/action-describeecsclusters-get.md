@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeEcsClusters&k=1:
+  /?Action=DescribeEcsClusters:
     get:
       summary: ' Describe Ecs Clusters '
       description: Describes Amazon ECS clusters that are registered with a stack
