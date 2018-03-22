@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetHostnameSuggestion&k=1:
+  /?Action=GetHostnameSuggestion:
     get:
       summary: ' Get Hostname Suggestion '
       description: Gets a generated host name for the specified layer, based on the
