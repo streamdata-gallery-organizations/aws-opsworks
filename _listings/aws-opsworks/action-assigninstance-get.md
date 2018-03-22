@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AssignInstance&k=1:
+  /?Action=AssignInstance:
     get:
       summary: ' Assign Instance '
       description: Assign a registered instance to a layer
