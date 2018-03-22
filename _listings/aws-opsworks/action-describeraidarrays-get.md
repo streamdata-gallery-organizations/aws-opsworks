@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeRaidArrays&k=1:
+  /?Action=DescribeRaidArrays:
     get:
       summary: ' Describe Raid Arrays '
       description: Describe an instance's RAID arrays
