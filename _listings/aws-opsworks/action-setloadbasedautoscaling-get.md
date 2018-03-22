@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SetLoadBasedAutoScaling&k=1:
+  /?Action=SetLoadBasedAutoScaling:
     get:
       summary: ' Set Load Based Auto Scaling '
       description: Specify the load-based auto scaling configuration for a specified
