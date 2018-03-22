@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SetTimeBasedAutoScaling&k=1:
+  /?Action=SetTimeBasedAutoScaling:
     get:
       summary: ' Set Time Based Auto Scaling '
       description: Specify the time-based auto scaling configuration for a specified
