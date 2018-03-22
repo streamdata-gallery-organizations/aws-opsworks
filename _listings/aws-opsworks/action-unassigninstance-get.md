@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UnassignInstance&k=1:
+  /?Action=UnassignInstance:
     get:
       summary: ' Unassign Instance '
       description: Unassigns a registered instance from all of it's layers
