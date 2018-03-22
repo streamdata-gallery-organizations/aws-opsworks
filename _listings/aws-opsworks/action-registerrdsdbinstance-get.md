@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RegisterRdsDbInstance&k=1:
+  /?Action=RegisterRdsDbInstance:
     get:
       summary: ' Register Rds Db Instance '
       description: Registers an Amazon RDS instance with a stack
