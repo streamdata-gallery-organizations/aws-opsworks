@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GrantAccess&k=1:
+  /?Action=GrantAccess:
     get:
       summary: ' Grant Access '
       description: NoteThis action can be used only with Windows stacks
