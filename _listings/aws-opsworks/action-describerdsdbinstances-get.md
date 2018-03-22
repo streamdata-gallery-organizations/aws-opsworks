@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeRdsDbInstances&k=1:
+  /?Action=DescribeRdsDbInstances:
     get:
       summary: ' Describe Rds Db Instances '
       description: Describes Amazon RDS instances
