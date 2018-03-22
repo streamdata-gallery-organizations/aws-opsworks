@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateRdsDbInstance&k=1:
+  /?Action=UpdateRdsDbInstance:
     get:
       summary: ' Update Rds Db Instance '
       description: Updates an Amazon RDS instance
