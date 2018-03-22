@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RegisterInstance&k=1:
+  /?Action=RegisterInstance:
     get:
       summary: ' Register Instance '
       description: Registers instances that were created outside of AWS OpsWorks Stacks
