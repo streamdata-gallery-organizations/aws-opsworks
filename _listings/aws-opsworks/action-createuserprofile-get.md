@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateUserProfile&k=1:
+  /?Action=CreateUserProfile:
     get:
       summary: ' Create User Profile '
       description: Creates a new user profile
