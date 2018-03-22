@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CloneStack&k=1:
+  /?Action=CloneStack:
     get:
       summary: ' Clone Stack '
       description: Creates a clone of a specified stack
