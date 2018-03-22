@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=StopInstance&k=1:
+  /?Action=StopInstance:
     get:
       summary: ' Stop Instance '
       description: Stops a specified instance
