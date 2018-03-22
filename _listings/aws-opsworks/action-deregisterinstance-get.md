@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeregisterInstance&k=1:
+  /?Action=DeregisterInstance:
     get:
       summary: ' Deregister Instance '
       description: Deregister a registered Amazon EC2 or on-premises instance
