@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AttachElasticLoadBalancer&k=1:
+  /?Action=AttachElasticLoadBalancer:
     get:
       summary: ' Attach Elastic Load Balancer '
       description: Attaches an Elastic Load Balancing load balancer to a specified
