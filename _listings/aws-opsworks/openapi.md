@@ -31,7 +31,8 @@ paths:
         200:
           description: OK
       tags:
-      - Instances
+      - Assign
+      - Instance
   /?Action=AssignVolume:
     get:
       summary: Assign Volume
@@ -52,7 +53,8 @@ paths:
         200:
           description: OK
       tags:
-      - Volumes
+      - Assign
+      - Volume
   /?Action=AssociateElasticIp:
     get:
       summary: Associate Elastic IP
@@ -73,6 +75,8 @@ paths:
         200:
           description: OK
       tags:
+      - Associate
+      - Elastic
       - IP Addresses
   /?Action=AttachElasticLoadBalancer:
     get:
@@ -95,7 +99,10 @@ paths:
         200:
           description: OK
       tags:
-      - Load Balancers
+      - Attach
+      - Elastic
+      - Load
+      - Balancer
   /?Action=CloneStack:
     get:
       summary: Clone Stack
@@ -203,7 +210,8 @@ paths:
         200:
           description: OK
       tags:
-      - Stacks
+      - Clone
+      - Stack
   /?Action=CreateApp:
     get:
       summary: Create App
@@ -266,7 +274,7 @@ paths:
         200:
           description: OK
       tags:
-      - Applications
+      - App
   /?Action=CreateDeployment:
     get:
       summary: Create Deployment
@@ -307,7 +315,7 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Deployment
   /?Action=CreateInstance:
     get:
       summary: Create Instance
@@ -394,7 +402,7 @@ paths:
         200:
           description: OK
       tags:
-      - Instances
+      - Instance
   /?Action=CreateLayer:
     get:
       summary: Create Layer
@@ -484,7 +492,7 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Layer
   /?Action=CreateStack:
     get:
       summary: Create Stack
@@ -581,7 +589,7 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Stack
   /?Action=CreateUserProfile:
     get:
       summary: Create User Profile
@@ -610,7 +618,8 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - User
+      - Profile
   /?Action=DeleteApp:
     get:
       summary: Delete App
@@ -626,7 +635,7 @@ paths:
         200:
           description: OK
       tags:
-      - Applications
+      - App
   /?Action=DeleteInstance:
     get:
       summary: Delete Instance
@@ -651,7 +660,7 @@ paths:
         200:
           description: OK
       tags:
-      - Instances
+      - Instance
   /?Action=DeleteLayer:
     get:
       summary: Delete Layer
@@ -667,7 +676,7 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Layer
   /?Action=DeleteStack:
     get:
       summary: Delete Stack
@@ -683,7 +692,7 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Stack
   /?Action=DeleteUserProfile:
     get:
       summary: Delete User Profile
@@ -699,7 +708,8 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - User
+      - Profile
   /?Action=DeregisterEcsCluster:
     get:
       summary: Deregister Ecs Cluster
@@ -715,7 +725,9 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Deregister
+      - Ecs
+      - Cluster
   /?Action=DeregisterElasticIp:
     get:
       summary: Deregister Elastic IP
@@ -731,6 +743,8 @@ paths:
         200:
           description: OK
       tags:
+      - Deregister
+      - Elastic
       - IP Addresses
   /?Action=DeregisterInstance:
     get:
@@ -747,7 +761,8 @@ paths:
         200:
           description: OK
       tags:
-      - Instances
+      - Deregister
+      - Instance
   /?Action=DeregisterRdsDbInstance:
     get:
       summary: Deregister Rds Db Instance
@@ -763,7 +778,10 @@ paths:
         200:
           description: OK
       tags:
-      - Instances
+      - Deregister
+      - Rds
+      - Db
+      - Instance
   /?Action=DeregisterVolume:
     get:
       summary: Deregister Volume
@@ -781,7 +799,8 @@ paths:
         200:
           description: OK
       tags:
-      - Volumes
+      - Deregister
+      - Volume
   /?Action=DescribeAgentVersions:
     get:
       summary: Describe Agent Versions
@@ -801,7 +820,9 @@ paths:
         200:
           description: OK
       tags:
-      - Agent Versions
+      - Describe
+      - Agent
+      - Versions
   /?Action=DescribeApps:
     get:
       summary: Describe Apps
@@ -821,7 +842,8 @@ paths:
         200:
           description: OK
       tags:
-      - Applications
+      - Describe
+      - Apps
   /?Action=DescribeCommands:
     get:
       summary: Describe Commands
@@ -845,6 +867,7 @@ paths:
         200:
           description: OK
       tags:
+      - Describe
       - Commands
   /?Action=DescribeDeployments:
     get:
@@ -869,6 +892,7 @@ paths:
         200:
           description: OK
       tags:
+      - Describe
       - Deployments
   /?Action=DescribeEcsClusters:
     get:
@@ -900,7 +924,9 @@ paths:
         200:
           description: OK
       tags:
-      - ECS Clusters
+      - Describe
+      - Ecs
+      - Clusters
   /?Action=DescribeElasticIps:
     get:
       summary: Describes Elastic IPs
@@ -924,7 +950,9 @@ paths:
         200:
           description: OK
       tags:
-      - IP Addresses
+      - Describes
+      - Elastic
+      - IP Addressess
   /?Action=DescribeElasticLoadBalancers:
     get:
       summary: Describe Elastic Load Balancers
@@ -944,7 +972,10 @@ paths:
         200:
           description: OK
       tags:
-      - Load Balancers
+      - Describe
+      - Elastic
+      - Load
+      - Balancers
   /?Action=DescribeInstances:
     get:
       summary: Describe Instances
@@ -968,6 +999,7 @@ paths:
         200:
           description: OK
       tags:
+      - Describe
       - Instances
   /?Action=DescribeLayers:
     get:
@@ -988,6 +1020,7 @@ paths:
         200:
           description: OK
       tags:
+      - Describe
       - Layers
   /?Action=DescribeLoadBasedAutoScaling:
     get:
@@ -1005,7 +1038,11 @@ paths:
         200:
           description: OK
       tags:
-      - Auto Scaling
+      - Describe
+      - Load
+      - Based
+      - Auto
+      - Scaling
   /?Action=DescribeMyUserProfile:
     get:
       summary: Describe My User Profile
@@ -1021,7 +1058,10 @@ paths:
         200:
           description: OK
       tags:
-      - Users
+      - Describe
+      - My
+      - User
+      - Profile
   /?Action=DescribePermissions:
     get:
       summary: Describe Permissions
@@ -1041,6 +1081,7 @@ paths:
         200:
           description: OK
       tags:
+      - Describe
       - Permissions
   /?Action=DescribeRaidArrays:
     get:
@@ -1065,7 +1106,9 @@ paths:
         200:
           description: OK
       tags:
-      - Raid Arrays
+      - Describe
+      - Raid
+      - Arrays
   /?Action=DescribeRdsDbInstances:
     get:
       summary: Describe Rds Db Instances
@@ -1085,6 +1128,9 @@ paths:
         200:
           description: OK
       tags:
+      - Describe
+      - Rds
+      - Db
       - Instances
   /?Action=DescribeServiceErrors:
     get:
@@ -1109,7 +1155,9 @@ paths:
         200:
           description: OK
       tags:
-      - Service Errors
+      - Describe
+      - Service
+      - Errors
   /?Action=DescribeStackProvisioningParameters:
     get:
       summary: Describe Stack Provisioning Parameters
@@ -1125,7 +1173,10 @@ paths:
         200:
           description: OK
       tags:
-      - Stacks
+      - Describe
+      - Stack
+      - Provisioning
+      - Parameters
   /?Action=DescribeStacks:
     get:
       summary: Describe Stacks
@@ -1141,6 +1192,7 @@ paths:
         200:
           description: OK
       tags:
+      - Describe
       - Stacks
   /?Action=DescribeStackSummary:
     get:
@@ -1159,7 +1211,9 @@ paths:
         200:
           description: OK
       tags:
-      - Stacks
+      - Describe
+      - Stack
+      - Summary
   /?Action=DescribeTimeBasedAutoScaling:
     get:
       summary: Describe Time Based Auto Scaling
@@ -1176,7 +1230,11 @@ paths:
         200:
           description: OK
       tags:
-      - Auto Scaling
+      - Describe
+      - Time
+      - Based
+      - Auto
+      - Scaling
   /?Action=DescribeUserProfiles:
     get:
       summary: Describe User Profiles
@@ -1193,7 +1251,9 @@ paths:
         200:
           description: OK
       tags:
-      - Users
+      - Describe
+      - User
+      - Profiles
   /?Action=DescribeVolumes:
     get:
       summary: Describe Volumes
@@ -1221,6 +1281,7 @@ paths:
         200:
           description: OK
       tags:
+      - Describe
       - Volumes
   /?Action=DetachElasticLoadBalancer:
     get:
@@ -1242,7 +1303,10 @@ paths:
         200:
           description: OK
       tags:
-      - Load Balancers
+      - Detach
+      - Elastic
+      - Load
+      - Balancer
   /?Action=DisassociateElasticIp:
     get:
       summary: Disassociate Elastic Ip
@@ -1258,7 +1322,9 @@ paths:
         200:
           description: OK
       tags:
-      - IP Addresses
+      - Disassociate
+      - Elastic
+      - Ip
   /?Action=GetHostnameSuggestion:
     get:
       summary: Get Hostname Suggestion
@@ -1275,7 +1341,8 @@ paths:
         200:
           description: OK
       tags:
-      - Host Names
+      - Hostname
+      - Suggestion
   /?Action=GrantAccess:
     get:
       summary: Grant Access
@@ -1295,6 +1362,7 @@ paths:
         200:
           description: OK
       tags:
+      - Grant
       - Access
   /?Action=RebootInstance:
     get:
@@ -1311,7 +1379,8 @@ paths:
         200:
           description: OK
       tags:
-      - Instances
+      - Reboot
+      - Instance
   /?Action=RegisterEcsCluster:
     get:
       summary: Register Ecs Cluster
@@ -1331,7 +1400,9 @@ paths:
         200:
           description: OK
       tags:
-      - ECS Clusters
+      - Register
+      - Ecs
+      - Cluster
   /?Action=RegisterElasticIp:
     get:
       summary: Register Elastic Ip
@@ -1351,7 +1422,9 @@ paths:
         200:
           description: OK
       tags:
-      - IP Addresses
+      - Register
+      - Elastic
+      - Ip
   /?Action=RegisterInstance:
     get:
       summary: Register Instance
@@ -1392,7 +1465,8 @@ paths:
         200:
           description: OK
       tags:
-      - Instances
+      - Register
+      - Instance
   /?Action=RegisterRdsDbInstance:
     get:
       summary: Register Rds Db Instance
@@ -1420,7 +1494,10 @@ paths:
         200:
           description: OK
       tags:
-      - Instances
+      - Register
+      - Rds
+      - Db
+      - Instance
   /?Action=RegisterVolume:
     get:
       summary: Register Volume
@@ -1440,7 +1517,8 @@ paths:
         200:
           description: OK
       tags:
-      - Volumes
+      - Register
+      - Volume
   /?Action=SetLoadBasedAutoScaling:
     get:
       summary: Set Load Based Auto Scaling
@@ -1471,7 +1549,11 @@ paths:
         200:
           description: OK
       tags:
-      - Auto Scaling
+      - Set
+      - Load
+      - Based
+      - Auto
+      - Scaling
   /?Action=SetPermission:
     get:
       summary: Set Permission
@@ -1504,7 +1586,8 @@ paths:
         200:
           description: OK
       tags:
-      - Permissions
+      - Set
+      - Permission
   /?Action=SetTimeBasedAutoScaling:
     get:
       summary: Set Time Based Auto Scaling
@@ -1525,7 +1608,11 @@ paths:
         200:
           description: OK
       tags:
-      - Auto Scaling
+      - Set
+      - Time
+      - Based
+      - Auto
+      - Scaling
   /?Action=StartInstance:
     get:
       summary: Start Instance
@@ -1541,7 +1628,8 @@ paths:
         200:
           description: OK
       tags:
-      - Instances
+      - Start
+      - Instance
   /?Action=StartStack:
     get:
       summary: Start Stack
@@ -1557,7 +1645,8 @@ paths:
         200:
           description: OK
       tags:
-      - Stacks
+      - Start
+      - Stack
   /?Action=StopInstance:
     get:
       summary: Stop Instance
@@ -1573,7 +1662,8 @@ paths:
         200:
           description: OK
       tags:
-      - Instances
+      - Stop
+      - Instance
   /?Action=StopStack:
     get:
       summary: Stop Stack
@@ -1589,7 +1679,8 @@ paths:
         200:
           description: OK
       tags:
-      - Stacks
+      - Stop
+      - Stack
   /?Action=UnassignInstance:
     get:
       summary: Unassign Instance
@@ -1605,7 +1696,8 @@ paths:
         200:
           description: OK
       tags:
-      - Instances
+      - Unassign
+      - Instance
   /?Action=UnassignVolume:
     get:
       summary: Unassign Volume
@@ -1621,7 +1713,8 @@ paths:
         200:
           description: OK
       tags:
-      - Volumes
+      - Unassign
+      - Volume
   /?Action=UpdateApp:
     get:
       summary: Update App
@@ -1680,7 +1773,7 @@ paths:
         200:
           description: OK
       tags:
-      - Applications
+      - App
   /?Action=UpdateElasticIp:
     get:
       summary: Update Elastic Ip
@@ -1700,7 +1793,8 @@ paths:
         200:
           description: OK
       tags:
-      - IP Addresses
+      - Elastic
+      - Ip
   /?Action=UpdateInstance:
     get:
       summary: Update Instance
@@ -1762,7 +1856,7 @@ paths:
         200:
           description: OK
       tags:
-      - Instances
+      - Instance
   /?Action=UpdateLayer:
     get:
       summary: Update Layer
@@ -1846,7 +1940,7 @@ paths:
         200:
           description: OK
       tags:
-      - Layers
+      - Layer
   /?Action=UpdateMyUserProfile:
     get:
       summary: Update My User Profile
@@ -1862,7 +1956,9 @@ paths:
         200:
           description: OK
       tags:
-      - Users
+      - My
+      - User
+      - Profile
   /?Action=UpdateRdsDbInstance:
     get:
       summary: Update Rds Db Instance
@@ -1886,7 +1982,9 @@ paths:
         200:
           description: OK
       tags:
-      - Instances
+      - Rds
+      - Db
+      - Instance
   /?Action=UpdateStack:
     get:
       summary: Update Stack
@@ -1977,7 +2075,7 @@ paths:
         200:
           description: OK
       tags:
-      - Stacks
+      - Stack
   /?Action=UpdateUserProfile:
     get:
       summary: Update User Profile
@@ -2006,7 +2104,8 @@ paths:
         200:
           description: OK
       tags:
-      - Users
+      - User
+      - Profile
   /?Action=UpdateVolume:
     get:
       summary: Update Volume
@@ -2030,5 +2129,5 @@ paths:
         200:
           description: OK
       tags:
-      - Volumes
+      - Volume
 ---

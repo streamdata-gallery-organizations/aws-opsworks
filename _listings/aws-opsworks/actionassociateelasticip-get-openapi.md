@@ -33,7 +33,8 @@ paths:
         200:
           description: OK
       tags:
-      - Instances
+      - Assign
+      - Instance
   /?Action=AssignVolume:
     get:
       summary: Assign Volume
@@ -54,7 +55,8 @@ paths:
         200:
           description: OK
       tags:
-      - Volumes
+      - Assign
+      - Volume
   /?Action=AssociateElasticIp:
     get:
       summary: Associate Elastic IP
@@ -75,6 +77,8 @@ paths:
         200:
           description: OK
       tags:
+      - Associate
+      - Elastic
       - IP Addresses
 x-streamrank:
   polling_total_time_average: 0

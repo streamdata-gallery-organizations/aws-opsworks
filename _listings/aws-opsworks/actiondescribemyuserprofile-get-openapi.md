@@ -32,7 +32,8 @@ paths:
         200:
           description: OK
       tags:
-      - Instances
+      - Assign
+      - Instance
   /?Action=AssignVolume:
     get:
       summary: Assign Volume
@@ -53,7 +54,8 @@ paths:
         200:
           description: OK
       tags:
-      - Volumes
+      - Assign
+      - Volume
   /?Action=AssociateElasticIp:
     get:
       summary: Associate Elastic IP
@@ -74,6 +76,8 @@ paths:
         200:
           description: OK
       tags:
+      - Associate
+      - Elastic
       - IP Addresses
   /?Action=AttachElasticLoadBalancer:
     get:
@@ -96,7 +100,10 @@ paths:
         200:
           description: OK
       tags:
-      - Load Balancers
+      - Attach
+      - Elastic
+      - Load
+      - Balancer
   /?Action=CloneStack:
     get:
       summary: Clone Stack
@@ -204,7 +211,8 @@ paths:
         200:
           description: OK
       tags:
-      - Stacks
+      - Clone
+      - Stack
   /?Action=CreateApp:
     get:
       summary: Create App
@@ -267,7 +275,7 @@ paths:
         200:
           description: OK
       tags:
-      - Applications
+      - App
   /?Action=CreateDeployment:
     get:
       summary: Create Deployment
@@ -308,7 +316,7 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Deployment
   /?Action=CreateInstance:
     get:
       summary: Create Instance
@@ -395,7 +403,7 @@ paths:
         200:
           description: OK
       tags:
-      - Instances
+      - Instance
   /?Action=CreateLayer:
     get:
       summary: Create Layer
@@ -485,7 +493,7 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Layer
   /?Action=CreateStack:
     get:
       summary: Create Stack
@@ -582,7 +590,7 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Stack
   /?Action=CreateUserProfile:
     get:
       summary: Create User Profile
@@ -611,7 +619,8 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - User
+      - Profile
   /?Action=DeleteApp:
     get:
       summary: Delete App
@@ -627,7 +636,7 @@ paths:
         200:
           description: OK
       tags:
-      - Applications
+      - App
   /?Action=DeleteInstance:
     get:
       summary: Delete Instance
@@ -652,7 +661,7 @@ paths:
         200:
           description: OK
       tags:
-      - Instances
+      - Instance
   /?Action=DeleteLayer:
     get:
       summary: Delete Layer
@@ -668,7 +677,7 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Layer
   /?Action=DeleteStack:
     get:
       summary: Delete Stack
@@ -684,7 +693,7 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Stack
   /?Action=DeleteUserProfile:
     get:
       summary: Delete User Profile
@@ -700,7 +709,8 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - User
+      - Profile
   /?Action=DeregisterEcsCluster:
     get:
       summary: Deregister Ecs Cluster
@@ -716,7 +726,9 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Deregister
+      - Ecs
+      - Cluster
   /?Action=DeregisterElasticIp:
     get:
       summary: Deregister Elastic IP
@@ -732,6 +744,8 @@ paths:
         200:
           description: OK
       tags:
+      - Deregister
+      - Elastic
       - IP Addresses
   /?Action=DeregisterInstance:
     get:
@@ -748,7 +762,8 @@ paths:
         200:
           description: OK
       tags:
-      - Instances
+      - Deregister
+      - Instance
   /?Action=DeregisterRdsDbInstance:
     get:
       summary: Deregister Rds Db Instance
@@ -764,7 +779,10 @@ paths:
         200:
           description: OK
       tags:
-      - Instances
+      - Deregister
+      - Rds
+      - Db
+      - Instance
   /?Action=DeregisterVolume:
     get:
       summary: Deregister Volume
@@ -782,7 +800,8 @@ paths:
         200:
           description: OK
       tags:
-      - Volumes
+      - Deregister
+      - Volume
   /?Action=DescribeAgentVersions:
     get:
       summary: Describe Agent Versions
@@ -802,7 +821,9 @@ paths:
         200:
           description: OK
       tags:
-      - Agent Versions
+      - Describe
+      - Agent
+      - Versions
   /?Action=DescribeApps:
     get:
       summary: Describe Apps
@@ -822,7 +843,8 @@ paths:
         200:
           description: OK
       tags:
-      - Applications
+      - Describe
+      - Apps
   /?Action=DescribeCommands:
     get:
       summary: Describe Commands
@@ -846,6 +868,7 @@ paths:
         200:
           description: OK
       tags:
+      - Describe
       - Commands
   /?Action=DescribeDeployments:
     get:
@@ -870,6 +893,7 @@ paths:
         200:
           description: OK
       tags:
+      - Describe
       - Deployments
   /?Action=DescribeEcsClusters:
     get:
@@ -901,7 +925,9 @@ paths:
         200:
           description: OK
       tags:
-      - ECS Clusters
+      - Describe
+      - Ecs
+      - Clusters
   /?Action=DescribeElasticIps:
     get:
       summary: Describes Elastic IPs
@@ -925,7 +951,9 @@ paths:
         200:
           description: OK
       tags:
-      - IP Addresses
+      - Describes
+      - Elastic
+      - IP Addressess
   /?Action=DescribeElasticLoadBalancers:
     get:
       summary: Describe Elastic Load Balancers
@@ -945,7 +973,10 @@ paths:
         200:
           description: OK
       tags:
-      - Load Balancers
+      - Describe
+      - Elastic
+      - Load
+      - Balancers
   /?Action=DescribeInstances:
     get:
       summary: Describe Instances
@@ -969,6 +1000,7 @@ paths:
         200:
           description: OK
       tags:
+      - Describe
       - Instances
   /?Action=DescribeLayers:
     get:
@@ -989,6 +1021,7 @@ paths:
         200:
           description: OK
       tags:
+      - Describe
       - Layers
   /?Action=DescribeLoadBasedAutoScaling:
     get:
@@ -1006,7 +1039,11 @@ paths:
         200:
           description: OK
       tags:
-      - Auto Scaling
+      - Describe
+      - Load
+      - Based
+      - Auto
+      - Scaling
   /?Action=DescribeMyUserProfile:
     get:
       summary: Describe My User Profile
@@ -1022,7 +1059,10 @@ paths:
         200:
           description: OK
       tags:
-      - Users
+      - Describe
+      - My
+      - User
+      - Profile
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

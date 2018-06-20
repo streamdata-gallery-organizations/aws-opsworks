@@ -32,7 +32,8 @@ paths:
         200:
           description: OK
       tags:
-      - Instances
+      - Assign
+      - Instance
   /?Action=AssignVolume:
     get:
       summary: Assign Volume
@@ -53,7 +54,8 @@ paths:
         200:
           description: OK
       tags:
-      - Volumes
+      - Assign
+      - Volume
   /?Action=AssociateElasticIp:
     get:
       summary: Associate Elastic IP
@@ -74,6 +76,8 @@ paths:
         200:
           description: OK
       tags:
+      - Associate
+      - Elastic
       - IP Addresses
   /?Action=AttachElasticLoadBalancer:
     get:
@@ -96,7 +100,10 @@ paths:
         200:
           description: OK
       tags:
-      - Load Balancers
+      - Attach
+      - Elastic
+      - Load
+      - Balancer
   /?Action=CloneStack:
     get:
       summary: Clone Stack
@@ -204,7 +211,8 @@ paths:
         200:
           description: OK
       tags:
-      - Stacks
+      - Clone
+      - Stack
   /?Action=CreateApp:
     get:
       summary: Create App
@@ -267,7 +275,7 @@ paths:
         200:
           description: OK
       tags:
-      - Applications
+      - App
   /?Action=CreateDeployment:
     get:
       summary: Create Deployment
@@ -308,7 +316,7 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Deployment
   /?Action=CreateInstance:
     get:
       summary: Create Instance
@@ -395,7 +403,7 @@ paths:
         200:
           description: OK
       tags:
-      - Instances
+      - Instance
   /?Action=CreateLayer:
     get:
       summary: Create Layer
@@ -485,7 +493,7 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Layer
   /?Action=CreateStack:
     get:
       summary: Create Stack
@@ -582,7 +590,7 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Stack
   /?Action=CreateUserProfile:
     get:
       summary: Create User Profile
@@ -611,7 +619,8 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - User
+      - Profile
   /?Action=DeleteApp:
     get:
       summary: Delete App
@@ -627,7 +636,7 @@ paths:
         200:
           description: OK
       tags:
-      - Applications
+      - App
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -8,10 +8,10 @@ description: AWS OpsWorks is a configuration management service that uses Chef, 
   OpsWorks has two offerings, AWS Opsworks for Chef Automate, and AWS OpsWorks Stacks.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: AWS OpsWorks
-created: "2018-05-24"
-modified: "2018-05-24"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/apis.md
 specificationVersion: "0.14"
 apis:
@@ -21,7 +21,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=AssignInstance
-  tags: Instances
+  tags: Assign,Instance
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionassigninstance-get-openapi.md
@@ -32,7 +32,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=AssignVolume
-  tags: Volumes
+  tags: Assign,Volume
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionassignvolume-get-openapi.md
@@ -43,7 +43,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=AssociateElasticIp
-  tags: IP Addresses
+  tags: Associate,Elastic,IP Addresses
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionassociateelasticip-get-openapi.md
@@ -53,7 +53,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=AttachElasticLoadBalancer
-  tags: Load Balancers
+  tags: Attach,Elastic,Load,Balancer
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionattachelasticloadbalancer-get-openapi.md
@@ -63,7 +63,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=CloneStack
-  tags: Stacks
+  tags: Clone,Stack
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionclonestack-get-postman.md
@@ -75,7 +75,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=CreateApp
-  tags: Applications
+  tags: App
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actioncreateapp-get-openapi.md
@@ -85,7 +85,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=CreateDeployment
-  tags: ~
+  tags: Deployment
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actioncreatedeployment-get-postman.md
@@ -97,7 +97,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=CreateInstance
-  tags: Instances
+  tags: Instance
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actioncreateinstance-get-openapi.md
@@ -107,7 +107,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=CreateLayer
-  tags: ~
+  tags: Layer
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actioncreatelayer-get-postman.md
@@ -119,7 +119,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=CreateStack
-  tags: ~
+  tags: Stack
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actioncreatestack-get-postman.md
@@ -131,7 +131,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=CreateUserProfile
-  tags: ~
+  tags: User,Profile
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actioncreateuserprofile-get-postman.md
@@ -143,7 +143,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DeleteApp
-  tags: Applications
+  tags: App
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiondeleteapp-get-postman.md
@@ -156,7 +156,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DeleteInstance
-  tags: Instances
+  tags: Instance
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiondeleteinstance-get-openapi.md
@@ -166,7 +166,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DeleteLayer
-  tags: ~
+  tags: Layer
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiondeletelayer-get-postman.md
@@ -178,7 +178,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DeleteStack
-  tags: ~
+  tags: Stack
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiondeletestack-get-postman.md
@@ -190,7 +190,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DeleteUserProfile
-  tags: ~
+  tags: User,Profile
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiondeleteuserprofile-get-postman.md
@@ -202,7 +202,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DeregisterEcsCluster
-  tags: ~
+  tags: Deregister,Ecs,Cluster
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionderegisterecscluster-get-postman.md
@@ -214,7 +214,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DeregisterElasticIp
-  tags: IP Addresses
+  tags: Deregister,Elastic,IP Addresses
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionderegisterelasticip-get-openapi.md
@@ -224,7 +224,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DeregisterInstance
-  tags: Instances
+  tags: Deregister,Instance
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionderegisterinstance-get-openapi.md
@@ -234,7 +234,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DeregisterRdsDbInstance
-  tags: Instances
+  tags: Deregister,Rds,Db,Instance
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionderegisterrdsdbinstance-get-openapi.md
@@ -244,7 +244,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DeregisterVolume
-  tags: Volumes
+  tags: Deregister,Volume
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionderegistervolume-get-openapi.md
@@ -254,7 +254,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DescribeAgentVersions
-  tags: Agent Versions
+  tags: Describe,Agent,Versions
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiondescribeagentversions-get-openapi.md
@@ -264,7 +264,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DescribeApps
-  tags: Applications
+  tags: Describe,Apps
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiondescribeapps-get-openapi.md
@@ -274,7 +274,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DescribeCommands
-  tags: Commands
+  tags: Describe,Commands
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiondescribecommands-get-openapi.md
@@ -284,7 +284,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DescribeDeployments
-  tags: Deployments
+  tags: Describe,Deployments
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiondescribedeployments-get-openapi.md
@@ -294,7 +294,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DescribeEcsClusters
-  tags: ECS Clusters
+  tags: Describe,Ecs,Clusters
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiondescribeecsclusters-get-openapi.md
@@ -304,7 +304,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DescribeElasticIps
-  tags: IP Addresses
+  tags: Describes,Elastic,IP Addressess
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiondescribeelasticips-get-openapi.md
@@ -314,7 +314,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DescribeElasticLoadBalancers
-  tags: Load Balancers
+  tags: Describe,Elastic,Load,Balancers
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiondescribeelasticloadbalancers-get-openapi.md
@@ -324,7 +324,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DescribeInstances
-  tags: Instances
+  tags: Describe,Instances
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiondescribeinstances-get-openapi.md
@@ -334,7 +334,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DescribeLayers
-  tags: Layers
+  tags: Describe,Layers
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiondescribelayers-get-openapi.md
@@ -344,7 +344,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DescribeLoadBasedAutoScaling
-  tags: Auto Scaling
+  tags: Describe,Load,Based,Auto,Scaling
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiondescribeloadbasedautoscaling-get-openapi.md
@@ -354,7 +354,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DescribeMyUserProfile
-  tags: Users
+  tags: Describe,My,User,Profile
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiondescribemyuserprofile-get-openapi.md
@@ -364,7 +364,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DescribePermissions
-  tags: Permissions
+  tags: Describe,Permissions
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiondescribepermissions-get-openapi.md
@@ -374,7 +374,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DescribeRaidArrays
-  tags: Raid Arrays
+  tags: Describe,Raid,Arrays
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiondescriberaidarrays-get-postman.md
@@ -386,7 +386,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DescribeRdsDbInstances
-  tags: Instances
+  tags: Describe,Rds,Db,Instances
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiondescriberdsdbinstances-get-openapi.md
@@ -396,7 +396,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DescribeServiceErrors
-  tags: Service Errors
+  tags: Describe,Service,Errors
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiondescribeserviceerrors-get-openapi.md
@@ -406,7 +406,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DescribeStackProvisioningParameters
-  tags: Stacks
+  tags: Describe,Stack,Provisioning,Parameters
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiondescribestackprovisioningparameters-get-postman.md
@@ -418,7 +418,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DescribeStacks
-  tags: Stacks
+  tags: Describe,Stacks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiondescribestacks-get-postman.md
@@ -432,7 +432,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DescribeStackSummary
-  tags: Stacks
+  tags: Describe,Stack,Summary
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiondescribestacksummary-get-postman.md
@@ -444,7 +444,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DescribeTimeBasedAutoScaling
-  tags: Auto Scaling
+  tags: Describe,Time,Based,Auto,Scaling
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiondescribetimebasedautoscaling-get-openapi.md
@@ -454,7 +454,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DescribeUserProfiles
-  tags: Users
+  tags: Describe,User,Profiles
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiondescribeuserprofiles-get-openapi.md
@@ -464,7 +464,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DescribeVolumes
-  tags: Volumes
+  tags: Describe,Volumes
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiondescribevolumes-get-openapi.md
@@ -474,7 +474,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DetachElasticLoadBalancer
-  tags: Load Balancers
+  tags: Detach,Elastic,Load,Balancer
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiondetachelasticloadbalancer-get-openapi.md
@@ -484,7 +484,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DisassociateElasticIp
-  tags: IP Addresses
+  tags: Disassociate,Elastic,Ip
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiondisassociateelasticip-get-openapi.md
@@ -495,7 +495,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=GetHostnameSuggestion
-  tags: Host Names
+  tags: Hostname,Suggestion
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiongethostnamesuggestion-get-postman.md
@@ -507,7 +507,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=GrantAccess
-  tags: Access
+  tags: Grant,Access
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actiongrantaccess-get-postman.md
@@ -519,7 +519,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=RebootInstance
-  tags: Instances
+  tags: Reboot,Instance
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionrebootinstance-get-openapi.md
@@ -529,7 +529,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=RegisterEcsCluster
-  tags: ECS Clusters
+  tags: Register,Ecs,Cluster
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionregisterecscluster-get-openapi.md
@@ -539,7 +539,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=RegisterElasticIp
-  tags: IP Addresses
+  tags: Register,Elastic,Ip
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionregisterelasticip-get-openapi.md
@@ -550,7 +550,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=RegisterInstance
-  tags: Instances
+  tags: Register,Instance
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionregisterinstance-get-openapi.md
@@ -560,7 +560,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=RegisterRdsDbInstance
-  tags: Instances
+  tags: Register,Rds,Db,Instance
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionregisterrdsdbinstance-get-openapi.md
@@ -570,7 +570,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=RegisterVolume
-  tags: Volumes
+  tags: Register,Volume
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionregistervolume-get-openapi.md
@@ -580,7 +580,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=SetLoadBasedAutoScaling
-  tags: Auto Scaling
+  tags: Set,Load,Based,Auto,Scaling
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionsetloadbasedautoscaling-get-openapi.md
@@ -590,7 +590,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=SetPermission
-  tags: Permissions
+  tags: Set,Permission
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionsetpermission-get-openapi.md
@@ -600,7 +600,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=SetTimeBasedAutoScaling
-  tags: Auto Scaling
+  tags: Set,Time,Based,Auto,Scaling
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionsettimebasedautoscaling-get-openapi.md
@@ -610,7 +610,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=StartInstance
-  tags: Instances
+  tags: Start,Instance
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionstartinstance-get-openapi.md
@@ -620,7 +620,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=StartStack
-  tags: Stacks
+  tags: Start,Stack
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionstartstack-get-postman.md
@@ -632,7 +632,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=StopInstance
-  tags: Instances
+  tags: Stop,Instance
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionstopinstance-get-openapi.md
@@ -642,7 +642,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=StopStack
-  tags: Stacks
+  tags: Stop,Stack
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionstopstack-get-postman.md
@@ -654,7 +654,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=UnassignInstance
-  tags: Instances
+  tags: Unassign,Instance
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionunassigninstance-get-openapi.md
@@ -664,7 +664,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=UnassignVolume
-  tags: Volumes
+  tags: Unassign,Volume
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionunassignvolume-get-openapi.md
@@ -674,7 +674,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=UpdateApp
-  tags: Applications
+  tags: App
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionupdateapp-get-openapi.md
@@ -684,7 +684,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=UpdateElasticIp
-  tags: IP Addresses
+  tags: Elastic,Ip
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionupdateelasticip-get-openapi.md
@@ -694,7 +694,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=UpdateInstance
-  tags: Instances
+  tags: Instance
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionupdateinstance-get-openapi.md
@@ -704,7 +704,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=UpdateLayer
-  tags: Layers
+  tags: Layer
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionupdatelayer-get-openapi.md
@@ -714,7 +714,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=UpdateMyUserProfile
-  tags: Users
+  tags: My,User,Profile
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionupdatemyuserprofile-get-openapi.md
@@ -724,7 +724,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=UpdateRdsDbInstance
-  tags: Instances
+  tags: Rds,Db,Instance
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionupdaterdsdbinstance-get-openapi.md
@@ -734,7 +734,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=UpdateStack
-  tags: Stacks
+  tags: Stack
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionupdatestack-get-postman.md
@@ -746,7 +746,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=UpdateUserProfile
-  tags: Users
+  tags: User,Profile
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionupdateuserprofile-get-openapi.md
@@ -756,7 +756,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=UpdateVolume
-  tags: Volumes
+  tags: Volume
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-opsworks/master/_listings/aws-opsworks/actionupdatevolume-get-openapi.md
